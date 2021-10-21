@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [search-module]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="bsearch-test-java(failed)">
+    <parameter name="keyword" value="java"/>
+    <classes>
+      <class name="com.searchmodule.tests.SearchTest">
+        <methods>
+          <include name="search" invocation-numbers="0"/>
+          <include name="quitDriver"/>
+          <include name="setUpDriver"/>
+        </methods>
+      </class> <!-- com.searchmodule.tests.SearchTest -->
+    </classes>
+  </test> <!-- bsearch-test-java(failed) -->
+  <test thread-count="5" name="search-test-QA(failed)">
+    <parameter name="keyword" value="QA"/>
+    <classes>
+      <class name="com.searchmodule.tests.SearchTest">
+        <methods>
+          <include name="search" invocation-numbers="0"/>
+          <include name="quitDriver"/>
+          <include name="setUpDriver"/>
+        </methods>
+      </class> <!-- com.searchmodule.tests.SearchTest -->
+    </classes>
+  </test> <!-- search-test-QA(failed) -->
+  <test thread-count="5" name="search-test-selenium(failed)">
+    <parameter name="keyword" value="selenium"/>
+    <classes>
+      <class name="com.searchmodule.tests.SearchTest">
+        <methods>
+          <include name="search" invocation-numbers="0"/>
+          <include name="quitDriver"/>
+          <include name="setUpDriver"/>
+        </methods>
+      </class> <!-- com.searchmodule.tests.SearchTest -->
+    </classes>
+  </test> <!-- search-test-selenium(failed) -->
+  <test thread-count="5" name="search-test-pao(failed)">
+    <parameter name="keyword" value="paocastrotv"/>
+    <classes>
+      <class name="com.searchmodule.tests.SearchTest">
+        <methods>
+          <include name="search" invocation-numbers="0"/>
+          <include name="quitDriver"/>
+          <include name="setUpDriver"/>
+        </methods>
+      </class> <!-- com.searchmodule.tests.SearchTest -->
+    </classes>
+  </test> <!-- search-test-pao(failed) -->
+  <test thread-count="5" name="search-test-docker(failed)">
+    <parameter name="keyword" value="docker"/>
+    <classes>
+      <class name="com.searchmodule.tests.SearchTest">
+        <methods>
+          <include name="search" invocation-numbers="0"/>
+          <include name="quitDriver"/>
+          <include name="setUpDriver"/>
+        </methods>
+      </class> <!-- com.searchmodule.tests.SearchTest -->
+    </classes>
+  </test> <!-- search-test-docker(failed) -->
+</suite> <!-- Failed suite [search-module] -->
