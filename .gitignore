@@ -1,8 +1,9 @@
 # Ignora archivos del sistema Mac 
-.DS_store
+.DS_Store
 
 # Ignora la carpeta node_modules, etc folders
 node_modules
+target
 
 # Ignora los archivos relacionados a API keys
 .env
